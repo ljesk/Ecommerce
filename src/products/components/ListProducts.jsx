@@ -1,6 +1,6 @@
-import "./Products.css";
+import "./ListProducts.css";
 
-export function Products({ products }) {
+export function ListProducts({ products }) {
   return (
     <main className="products">
       <ul>
