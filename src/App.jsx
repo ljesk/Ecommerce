@@ -1,11 +1,14 @@
 import "./App.css";
+import { Cart } from "./cart/Cart";
 import { Products } from "./products/Products";
+import { CartProvider } from "./cart/CartProvider";
 
 function App() {
   return (
-    <div>
+    <CartProvider>
+      <Cart />
       <Products />
-    </div>
+    </CartProvider>
   );
 }
 
